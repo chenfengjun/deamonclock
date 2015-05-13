@@ -1,0 +1,18 @@
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app1="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.chan.com.deamonclock.customerview.MyView
+            android:background="#ccc"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="40dp"
+            app1:exampleDimension="24sp"
+            app1:exampleColor="#33b5e5"
+            app1:exampleString="Hello, MyView"
+            app1:exampleDrawable="@android:drawable/ic_menu_add"/>
+
+</FrameLayout>
